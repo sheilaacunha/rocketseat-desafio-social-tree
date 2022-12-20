@@ -1,0 +1,83 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+body {
+  background: var(--body-bg-color);
+}
+main,
+body,
+.perfil,
+.perfilDiv,
+.links a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  margin-top: 5%;
+  height: auto;
+  width: auto;
+}
+.perfilDiv {
+  width: 213px;
+  height: 213px;
+}
+.perfilDiv,
+.redes {
+  margin: 15px 0px;
+}
+.perfilDiv,
+.links a {
+  border: 2px solid var(--purple);
+}
+.perfilDiv,
+.fotoPerfil {
+  border-radius: 50%;
+}
+.fotoPerfil {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px 5px 5px var(--purple);
+}
+span {
+  font-weight: 300;
+  text-align: center;
+  color: var(--purple);
+}
+span,
+.links a {
+  font-size: 16px;
+  line-height: 24px;
+}
+.links a {
+  width: 300px;
+  height: 49px;
+  border-radius: 4px;
+  margin: 5px;
+  font-weight: 600;
+  color: var(--purple);
+  text-transform: uppercase;
+}
+a:hover {
+  text-shadow: 5px 5px 10px var(--purple);
+}
+.redes {
+  width: 236px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.redes img {
+  width: 24px;
+  height: 24px;
+}
